@@ -19,8 +19,14 @@ export default function Viewer() {
         setPage(null);
       }
     });
+    socket?.on("resume", (resp) => {
+      if (resp) {
+        setPage(get(resp?.id) ?? null);
+      }
+    });
     return () => {
       socket?.removeListener(event);
+      socket?.removeListener("resume");
     };
   }, [get, socket]);
 

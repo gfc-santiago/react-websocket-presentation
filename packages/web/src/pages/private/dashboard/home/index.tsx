@@ -97,8 +97,14 @@ export default function HomePage() {
         clear();
       }
     });
+    socket?.on("resume", (resp) => {
+      if (resp) {
+        moveTo(resp?.id);
+      }
+    });
     return () => {
       socket?.removeListener(event);
+      socket?.removeListener("resume");
     };
   }, [socket, moveTo, clear]);
 

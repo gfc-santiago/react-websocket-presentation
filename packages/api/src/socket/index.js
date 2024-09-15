@@ -1,5 +1,7 @@
 const socketIo = require("socket.io");
 
+const cache = {};
+
 module.exports = function createSocketServer(server) {
   const io = socketIo(server, {
     cors: {
@@ -8,8 +10,9 @@ module.exports = function createSocketServer(server) {
     },
   });
   io.on("connect", (sock) => {
+    sock.emit("resume", cache.payload);
     sock.on("prompt", (payload) => {
-      console.log("prompt", payload);
+      cache.payload = payload;
       io.emit("broadcast", payload);
     });
     return "Hello";
