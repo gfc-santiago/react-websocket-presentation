@@ -4,6 +4,11 @@ export enum PageCollectionType {
   Response = "Response",
 }
 
+export enum LayoutType {
+  Subtitle = "Subtitle",
+  Preview = "Preview",
+}
+
 export interface Navigation {
   prev?: string;
   next?: string;
@@ -50,4 +55,5 @@ export interface Page {
   id?: string;
   lines: (string | undefined)[];
   nav?: Navigation;
+  layout?: LayoutType;
 }

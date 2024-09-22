@@ -83,9 +83,13 @@ export default function HomePage() {
   };
 
   const clear = useCallback(() => {
-    history.current = selected;
-    select("");
-  }, [selected]);
+    if (selected) {
+      history.current = selected;
+      select("");
+    } else {
+      socket?.prompt?.({ type: "text", id: history.current });
+    }
+  }, [selected, socket]);
 
   useEffect(() => {
     const event = "broadcast";

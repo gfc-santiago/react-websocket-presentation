@@ -9,20 +9,30 @@ export default function Viewer() {
   const { socket } = useSocket();
   const { get } = useCollection();
   const [page, setPage] = useState<Page | null>(null);
+  const [visible, setVisible] = useState<boolean>(true);
 
   useEffect(() => {
     const event = "broadcast";
     socket?.on(event, ({ type, id }) => {
-      if (type === "text") {
-        setPage(get(id) ?? null);
-      } else if (type === "clear") {
-        setPage(null);
-      }
+      setVisible(false);
+      setTimeout(() => {
+        if (type === "text") {
+          setVisible(true);
+          setPage(get(id) ?? null);
+        } else if (type === "clear") {
+          setVisible(false);
+          setPage(null);
+        }
+      }, 200);
     });
     socket?.on("resume", (resp) => {
-      if (resp) {
-        setPage(get(resp?.id) ?? null);
-      }
+      setVisible(false);
+      setTimeout(() => {
+        if (resp) {
+          setVisible(true);
+          setPage(get(resp?.id) ?? null);
+        }
+      });
     });
     return () => {
       socket?.removeListener(event);
@@ -33,7 +43,7 @@ export default function Viewer() {
   const lines = useMemo(() => {
     return page?.lines.map((line, idx) => {
       const [, type, content] = line?.match(/^\{(xs|sm|lg|xl)\}(.*)/) ?? [];
-      const style: SxProps<Theme> = { fontSize: "6em" };
+      const style: SxProps<Theme> = { fontSize: "5em" };
       if (type === "xs") {
         style.fontSize = "3em";
       } else if (type === "sm") {
@@ -47,16 +57,32 @@ export default function Viewer() {
     });
   }, [page?.lines]);
 
+  const layout =
+    page?.layout === "Preview"
+      ? {
+          height: "100%",
+          display: "flex",
+          // flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+        }
+      : {
+          width: "100%",
+        };
   return (
     <Box
       sx={{
+        flexDirection: "column",
         position: "absolute",
         bottom: 0,
         right: 0,
-        width: "100%",
+        ...layout,
         background: `radial-gradient(circle,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 80%,rgba(0, 0, 0, 0) 100%)`,
         textAlign: "center",
         color: "#fff",
+        transition: "opacity 0.5s",
+        opacity: visible ? 1 : 0,
+        padding: "10px 0",
       }}
     >
       {lines?.map(({ content, id, style }) => (
