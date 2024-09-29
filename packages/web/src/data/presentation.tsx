@@ -2,6 +2,11 @@ import {
   PageCollectionType,
   Presentation,
 } from "../pages/private/dashboard/types.d";
+import UMH_593 from "./songs/hymn/umh-593";
+import UMH_73 from "./songs/hymn/umh-73";
+import { AdonaiShortVer } from "./songs/praise-and-worship/adonai";
+import OComeToTheAltar from "./songs/praise-and-worship/o-come-to-the-altar";
+import SingSingSing from "./songs/praise-and-worship/sing-sing-sing";
 
 const presentation: Presentation = {
   id: "Service",
@@ -10,422 +15,192 @@ const presentation: Presentation = {
       title: "Intro",
       pages: [
         {
+          lines: ["{xs}Announcements:","{sm}Sis. Elma Oliman"],
+        },
+        {
           lines: [
             "{sm}Worship Service",
-            "{xs}September 22, 2024",
-            "{xs}Eighteenth Sunday after Pentecost",
+            "{xs}September 29, 2024",
+            "{xs}19th Sunday after Pentecost",
           ],
         },
         {
           lines: [
             "{sm}Ligthing of the altar and paschal candles",
-            "{xs}Elenita Gonzales, Destiny Soriano, Raili Manalo",
-            "{xs}Jayden Salcedo, Eddrian Fernandez",
-          ],
-        },
-        {
-          lines: [
-            "{xs}Prelude",
-            '{sm}"Softly and Tenderly"',
-            "{xs}Jesse Buenavides, Kyle Oliman and Jade Estepa",
+            "{xs}Acolyte",
           ],
         },
         {
           lines: ["{xs}Introit", "{sm}UMC Daly City Chancel Choir"],
         },
         {
-          lines: ["{sm}Roxanne Sacun", "{xs}Pianist"],
-        },
-        {
-          lines: ["{xs}Hymn Of Praise", "{sm}UMCDC Praise Band"],
+          lines: ["{xs}Prelude", "{sm}Roxanne Sacun", "{xs}Pianist"],
         },
       ],
       type: PageCollectionType.Response,
     },
+    UMH_73,
     {
-      title: "To God be the Glory",
-      author: "UMH #98",
+      title: "Pre Worship",
+      alias: "Liturgist",
       pages: [
         {
-          name: "Verse 1",
+          name: "Call to Worship",
           pages: [
             {
-              lines: ["To God be the glory,", "great things he hath done!"],
+              lines: [
+                "{xs}Liturgist:",
+                "{sm}Children of God, you are welcome here.",
+              ],
             },
             {
-              lines: ["So loved he the world", "that he gave us his Son"],
+              lines: [
+                "{xs}Liturgist:",
+                "{sm}All of who you are even your regrets and failing",
+                "{sm}is welcome here",
+              ],
             },
             {
-              lines: ["who yielded his life", "an atonement for sin"],
+              lines: [
+                "{xs}People:",
+                "{sm}We come to tell the truth about",
+                "{sm}who we are in relationship with God.",
+              ],
             },
             {
-              lines: ["and 	opened the life-gate", "that all may go in"],
+              lines: [
+                "{xs}Liturgist:",
+                "{sm}Many of us find it easy to recognize",
+                "{sm}our goodness and difficult to notice our sins.",
+              ],
+            },
+            {
+              lines: [
+                "{xs}People:",
+                "{sm}We come to tell the truth about",
+                "{sm}who we are in relationship with God.",
+              ],
+            },
+            {
+              lines: [
+                "{xs}Liturgist:",
+                "{sm}Others of us live under",
+                "{sm}a shroud of guilt and shame",
+              ],
+            },
+            {
+              lines: [
+                "{xs}Liturgist:",
+                "{sm}believing we can never be good enough",
+                "{sm}to receive the fullness of God's love.",
+              ],
+            },
+            {
+              lines: [
+                "{xs}People:",
+                "{sm}We come to tell the truth about",
+                "{sm}who we are in relationship with God.",
+              ],
+            },
+            {
+              lines: [
+                "{xs}Liturgist:",
+                "{sm}However, you enter this place, know this:",
+                "{sm}you are loved, accepted, and called.",
+              ],
+            },
+            {
+              lines: [
+                "{xs}Liturgist:",
+                "{sm}May God's love draw us to honest confession",
+              ],
+            },
+            {
+              lines: [
+                "{xs}Liturgist:",
+                "{sm}God's acceptance assures us of",
+                "{sm}the work of grace in our lives",
+              ],
+            },
+            {
+              lines: [
+                "{xs}Liturgist:",
+                "{sm}and God's call compels us to live in grace.",
+              ],
+            },
+            {
+              lines: ["{xs}All:", "{sm}We come to tell the truth"],
+            },
+            {
+              lines: [
+                "{xs}All:",
+                "{sm} about who we are in relationship with God",
+                "{sm}who loves us, accepts us, and calls us",
+              ],
+            },
+            {
+              lines: ["Amen"],
             },
           ],
         },
         {
-          name: "Refrain",
+          name: "Praise and Worship",
           pages: [
             {
-              lines: [
-                "Praise the Lord, praise the Lord",
-                "let the earth hear his voice!",
-              ],
-            },
-            {
-              lines: [
-                "Praise the Lord, praise the Lord",
-                "let the people rejoice!",
-              ],
-            },
-            {
-              lines: ["O come to the Father", "thru Jesus the Son"],
-            },
-            {
-              lines: ["and give him the glory,", "great things he hath done!"],
+              lines: ["{xs}Praise And Worship", "{sm}Psalms 108 Praise Band"],
             },
           ],
         },
         {
-          name: "Verse 2",
+          name: "Prayer for the day",
           pages: [
             {
-              lines: ["O perfect redemption,", "the purchase of blood"],
+              lines: ["Prayer for the day", "{xs}(The Community in Unison)"],
             },
             {
-              lines: ["to every believer", "the promise of God"],
+              lines: [
+                "{sm}Holy God, joy of the universe,",
+                "{sm}it is your awesome love that brings us here.",
+              ],
             },
             {
-              lines: ["the vilest offender", "who truly believes"],
+              lines: [
+                "{sm}You awaken within us a loving response,",
+                "{sm}which hungers and thirsts for your truth and beauty.",
+              ],
             },
             {
-              lines: ["that moment from Jesus", "a pardon receives"],
+              lines: [
+                "{sm}As we worship you, please do not give us",
+                "{sm}the blessings we want but the ones we most need.",
+              ],
+            },
+            {
+              lines: [
+                "{sm}Satisfy us with the truth that we may need,",
+                "{sm}though such truth might be most uncomfortable,",
+              ],
+            },
+            {
+              lines: [
+                "{sm}and confront us with your holy beauty,",
+                "{sm}that brings us healing.",
+              ],
+            },
+            {
+              lines: ["{sm}Through Christ Jesus your joyful Son.", "{sm}Amen!"],
             },
           ],
-        },
-        {
-          name: "Refrain",
-          pages: [
-            {
-              lines: [
-                "Praise the Lord, praise the Lord",
-                "let the earth hear his voice!",
-              ],
-            },
-            {
-              lines: [
-                "Praise the Lord, praise the Lord",
-                "let the people rejoice!",
-              ],
-            },
-            {
-              lines: ["O come to the Father", "thru Jesus the Son"],
-            },
-            {
-              lines: ["and give him the glory,", "great things he hath done!"],
-            },
-          ],
-        },
-        {
-          name: "Verse 2",
-          pages: [
-            {
-              lines: [
-                "Great things he hath taught us",
-                "great things he hath done",
-              ],
-            },
-            {
-              lines: ["and great our 	rejoicing", "thru Jesus the Son"],
-            },
-            {
-              lines: ["but purer, and higher", "and greater will be"],
-            },
-            {
-              lines: ["our wonder, our transport,", "when Jesus we see."],
-            },
-          ],
-        },
-        {
-          name: "Refrain",
-          pages: [
-            {
-              lines: [
-                "Praise the Lord, praise the Lord",
-                "let the earth hear his voice!",
-              ],
-            },
-            {
-              lines: [
-                "Praise the Lord, praise the Lord",
-                "let the people rejoice!",
-              ],
-            },
-            {
-              lines: ["O come to the Father", "thru Jesus the Son"],
-            },
-            {
-              lines: ["and give him the glory,", "great things he hath done!"],
-            },
-          ],
-        },
-      ],
-      type: PageCollectionType.Song,
-    },
-    {
-      title: "Praise And Worship",
-      pages: [
-        {
-          lines: ["{xs}Praise And Worship", "{sm}Psalms 108 Praise Band"],
         },
       ],
       type: PageCollectionType.Response,
     },
-    {
-      alias: "PAW",
-      title: "You Are Good",
-      author: "Israel Houghton",
-      pages: [
-        {
-          name: "Verse 1",
-          pages: [
-            {
-              lines: ["Lord, you are good", "And your mercy endureth forever"],
-            },
-            {
-              lines: ["Lord, you are good", "And your mercy endureth forever"],
-            },
-          ],
-        },
-        {
-          name: "Refrain",
-          pages: [
-            {
-              lines: [
-                "People from every nation and tongue",
-                "From generation to generation",
-              ],
-            },
-          ],
-        },
-        {
-          name: "Chorus",
-          pages: [
-            {
-              lines: ["We worship You", "hallelujah, hallelujah"],
-            },
-            {
-              lines: ["We worship You", "for who You are"],
-            },
-            {
-              lines: ["We worship You", "hallelujah, hallelujah"],
-            },
-            {
-              lines: ["We worship You", "for who You are"],
-            },
-            {
-              lines: ["You are good!"],
-            },
-          ],
-        },
-        {
-          name: "Bridge",
-          pages: [
-            {
-              lines: [
-                "You are good all the time",
-                "And all the time, You are good",
-              ],
-            },
-          ],
-        },
-        {
-          name: "Refrain",
-          pages: [
-            {
-              lines: [
-                "People from every nation and tongue",
-                "From generation to generation",
-              ],
-            },
-          ],
-        },
-        {
-          name: "Chorus",
-          pages: [
-            {
-              lines: ["We worship You", "hallelujah, hallelujah"],
-            },
-            {
-              lines: ["We worship You", "for who You are"],
-            },
-            {
-              lines: ["We worship You", "hallelujah, hallelujah"],
-            },
-            {
-              lines: ["We worship You", "for who You are"],
-            },
-            {
-              lines: ["You are good!"],
-            },
-          ],
-        },
-      ],
-      type: PageCollectionType.Song,
-    },
-    {
-      alias: "PAW",
-      title: "Trust in God",
-      author: "Elevation Worship",
-      pages: [
-        {
-          name: "Verse 1",
-          pages: [
-            {
-              lines: ["Blessed Assurance,", "Jesus is mine"],
-            },
-            {
-              lines: ["He's been my fourth man in the fire", "time after time"],
-            },
-            {
-              lines: ["Born of His Spirit,", "washed in His blood"],
-            },
-            {
-              lines: [
-                "And what He did for me on Calvary",
-                "is more than enough",
-              ],
-            },
-          ],
-        },
-        {
-          name: "Chorus",
-          pages: [
-            {
-              lines: [
-                "I trust in God, my Savior",
-                "The one, who will never fail",
-              ],
-            },
-            {
-              lines: ["He will never fail"],
-            },
-            {
-              lines: [
-                "I trust in God, my Savior",
-                "The one, who will never fail",
-              ],
-            },
-            {
-              lines: ["He will never fail"],
-            },
-          ],
-        },
-        {
-          name: "Verse 2",
-          pages: [
-            {
-              lines: ["Perfect submission,", "all is at rest"],
-            },
-            {
-              lines: ["I know the author of tomorrow", "has ordered my steps"],
-            },
-            {
-              lines: ["So this is my story", "and this is my song"],
-            },
-            {
-              lines: [
-                "I'm praising my risen King and Savior",
-                "all the day long",
-              ],
-            },
-          ],
-        },
-        {
-          name: "Chorus",
-          pages: [
-            {
-              lines: [
-                "I trust in God, my Savior",
-                "The one, who will never fail",
-              ],
-            },
-            {
-              lines: ["He will never fail"],
-            },
-            {
-              lines: [
-                "I trust in God, my Savior",
-                "The one, who will never fail",
-              ],
-            },
-            {
-              lines: ["He will never fail"],
-            },
-          ],
-        },
-        {
-          name: "Bridge",
-          pages: [
-            {
-              lines: ["I sought the Lord", "and He heard and He answered"],
-            },
-            {
-              lines: ["That's why I trust Him", "that's why I trust Him"],
-            },
-          ],
-        },
-        {
-          name: "Chorus",
-          pages: [
-            {
-              lines: [
-                "I trust in God, my Savior",
-                "The one, who will never fail",
-              ],
-            },
-            {
-              lines: ["He will never fail"],
-            },
-            {
-              lines: [
-                "I trust in God, my Savior",
-                "The one, who will never fail",
-              ],
-            },
-            {
-              lines: ["He will never fail"],
-            },
-          ],
-        },
-        {
-          name: "Outro",
-          pages: [
-            {
-              lines: ["I trust in God"],
-            },
-          ],
-        },
-      ],
-      type: PageCollectionType.Song,
-    },
+    AdonaiShortVer,
+    SingSingSing,
+    OComeToTheAltar,
     {
       title: "Service Proper",
       pages: [
-        {
-          name: "Welcome and Greetings",
-          pages: [
-            {
-              lines: ["{sm}WELCOMING AND GREETINGS"],
-            },
-            {
-              lines: [
-                "{sm}Sister Lilian Sacun",
-                "{xs}Chairperson UMCDC Anniversary Team",
-              ],
-            },
-          ],
-        },
         {
           name: "Thanksgiving",
           pages: [
@@ -441,14 +216,44 @@ const presentation: Presentation = {
           ],
         },
         {
-          name: "The Lord’s Prayer",
+          name: "The Lord's Prayer",
           pages: [
             {
+              lines: ["The Lord's Prayer"],
+            },
+            {
               lines: [
-                "The Lord’s Prayer",
-                "{sm}Rev. Oliver Mangubat",
-                "{xs}Administrative Pastor",
+                "{sm}Our Father, who art in heaven",
+                "{sm}hallowed be thy name.",
               ],
+            },
+            {
+              lines: [
+                "{sm}Thy kingdom come,",
+                "{sm}Thy will be done on earth as it is in heaven",
+              ],
+            },
+            {
+              lines: [
+                "{sm}Give us this day our daily bread",
+                "{sm}and forgive us our trespasses",
+                "{sm}as we forgive those who trespass against us",
+              ],
+            },
+            {
+              lines: [
+                "{sm}And lead us not into temptation",
+                "{sm}but deliver us from evil",
+              ],
+            },
+            {
+              lines: [
+                "{sm}For thine is the kingdom, and the power",
+                "{sm}and glory forever",
+              ],
+            },
+            {
+              lines: ["Amen"],
             },
           ],
         },
@@ -456,7 +261,7 @@ const presentation: Presentation = {
           name: "Scripture Reading",
           pages: [
             {
-              lines: ["{xs}Reading from the scriptures", "{sm}Genesis 12:1-9"],
+              lines: ["{xs}Reading from the scriptures", "{sm}Matthew 6:19-24"],
             },
             {
               lines: [
@@ -508,16 +313,10 @@ const presentation: Presentation = {
           pages: [
             {
               lines: [
-                '{sm}"His Grace is Greater"',
+                "{sm}\"He's Got the Whole World / This is My Father's World\"",
                 "{xs}UMC Daly City Chancel Choir",
                 "{xs}Rebecca Katigbak-Grear, Conducting",
                 "{xs}Roxanne Sacun, Accompanist",
-              ],
-            },
-            {
-              lines: [
-                "{sm}Sister Lilian Sacun",
-                "{xs}Chairperson UMCDC Anniversary Team",
               ],
             },
           ],
@@ -573,17 +372,6 @@ const presentation: Presentation = {
             },
           ],
         },
-        {
-          name: "Introduction to the guest preacher",
-          pages: [
-            {
-              lines: [
-                "Rev. Oliver S. Mangubat",
-                "{xs}UMCDC Administrative Pastor",
-              ],
-            },
-          ],
-        },
       ],
       type: PageCollectionType.Response,
     },
@@ -591,17 +379,74 @@ const presentation: Presentation = {
       title: "Message",
       pages: [
         {
-          name: "Message",
+          name: "Intro",
           pages: [
             {
               lines: [
-                '"Blessed to be a Blessing"',
-                "{sm}Rev. Sun Hee Kim",
-                "{xs}Bay District Superintendent",
+                '{sm}"Treasure on Earth and The Lamp of the Body"',
+                "{sm}Rev. Oliver S. Mangubat, D.Min.",
+                "{xs}UMCDC Administrative Pastor",
               ],
             },
             {
-              lines: ["{sm}Scripture Reading", "{sm}Genesis 12:1-9"],
+              lines: [
+                "{sm}Rev. Oliver S. Mangubat, D.Min.",
+                "{xs}UMCDC Administrative Pastor",
+              ],
+            },
+            {
+              lines: ["{sm}Scripture Text", "{sm}Matthew 6:19-24"],
+            },
+          ],
+        },
+        {
+          name: "Keywords",
+          pages: [
+            {
+              lines: ["1) Focus for our heart."],
+            },
+            {
+              lines: ["2) Focus for our eye."],
+            },
+            {
+              lines: ["3) Focus for our living."],
+            },
+            {
+              lines: ["Focus on the riches found in God."],
+            },
+            {
+              lines: [
+                "{xs}Challenge:",
+                "{sm}Jesus is not instructing us this way in this passage",
+                "{sm}because He wants to punish us.",
+              ],
+            },
+            {
+              lines: [
+                "{xs}Challenge:",
+                "{sm}He doesn't want us to miss out on riches.",
+                "{sm}He wants us to see what true riches are.",
+              ],
+            },
+            {
+              lines: [
+                "{xs}Challenge:",
+                "{sm}He wants us to see that love is better,",
+                "{sm}peace is better, grace is better, forgiveness is better,",
+              ],
+            },
+            {
+              lines: [
+                "{xs}Challenge:",
+                "{sm}and best of all is adoption into the family of God,",
+                "{sm}made possible by His sacrifice on the cross.",
+              ],
+            },
+            {
+              lines: [
+                "{xs}Challenge:",
+                "{sm}He’s showing us something better!",
+              ],
             },
           ],
         },
@@ -611,18 +456,18 @@ const presentation: Presentation = {
     {
       title: "Post Message",
       pages: [
-        {
-          name: "Special Offertory Number",
-          pages: [
-            {
-              lines: [
-                "{xs}Special Offertory Number",
-                '{sm}"Who You Say Iam"',
-                "{xs}Mylene Soriano",
-              ],
-            },
-          ],
-        },
+        // {
+        //   name: "Special Offertory Number",
+        //   pages: [
+        //     {
+        //       lines: [
+        //         "{xs}Special Offertory Number",
+        //         '{sm}"Who You Say Iam"',
+        //         "{xs}Mylene Soriano",
+        //       ],
+        //     },
+        //   ],
+        // },
         {
           name: "INVITATION TO THE OFFERING",
           pages: [
@@ -667,116 +512,7 @@ const presentation: Presentation = {
       ],
       type: PageCollectionType.Song,
     },
-    {
-      alias: "Closing",
-      title: "Great Is Thy Faithfulness",
-      author: "UMH #140",
-      pages: [
-        {
-          name: "Verse 1",
-          pages: [
-            {
-              lines: [
-                "Great is thy faithfulness, O God my Father;",
-                "there is no shadow of turning 	with thee",
-              ],
-            },
-            {
-              lines: [
-                "thou changest not, thy compassions, they fail not",
-                "as thou 	hast been, thou forever wilt be.",
-              ],
-            },
-          ],
-        },
-        {
-          name: "Refrain",
-          pages: [
-            {
-              lines: [
-                "Great is thy faithfulness! Great is thy faithfulness!",
-                "Morning by morning new mercies I see",
-              ],
-            },
-            {
-              lines: [
-                "all I have needed thy hand hath provided",
-                "great is thy faithfulness, Lord, unto me!",
-              ],
-            },
-          ],
-        },
-        {
-          name: "Verse 2",
-          pages: [
-            {
-              lines: [
-                "Summer and winter and springtime and harvest",
-                "sun, moon, and stars in 	their courses above",
-              ],
-            },
-            {
-              lines: [
-                "join with all nature in manifold witness",
-                "to thy great faithfulness, mercy, and love",
-              ],
-            },
-          ],
-        },
-        {
-          name: "Refrain",
-          pages: [
-            {
-              lines: [
-                "Great is thy faithfulness! Great is thy faithfulness!",
-                "Morning by morning new mercies I see",
-              ],
-            },
-            {
-              lines: [
-                "all I have needed thy hand hath provided",
-                "great is thy faithfulness, Lord, unto me!",
-              ],
-            },
-          ],
-        },
-        {
-          name: "Verse 3",
-          pages: [
-            {
-              lines: [
-                "Pardon for sin and a peace that endureth",
-                "thine own dear presence to cheer and to guide",
-              ],
-            },
-            {
-              lines: [
-                "strength for today and bright hope for tomorrow",
-                "blessings all mine, with ten thousand beside!",
-              ],
-            },
-          ],
-        },
-        {
-          name: "Refrain",
-          pages: [
-            {
-              lines: [
-                "Great is thy faithfulness! Great is thy faithfulness!",
-                "Morning by morning new mercies I see",
-              ],
-            },
-            {
-              lines: [
-                "all I have needed thy hand hath provided",
-                "great is thy faithfulness, Lord, unto me!",
-              ],
-            },
-          ],
-        },
-      ],
-      type: PageCollectionType.Song,
-    },
+    UMH_593,
     {
       title: "Closing",
       pages: [
@@ -786,17 +522,23 @@ const presentation: Presentation = {
             {
               lines: [
                 "{xs}Pastor:",
-                "{sm}Beloved, may God bless you with the uncommon wisdom to know deep in your hearts the vastness of God's love for you",
+                "{sm}Beloved, receive this good news:",
+                "{sm}Nothing can separate you from the love of God.",
               ],
             },
             {
               lines: [
                 "{xs}Pastor:",
-                "{sm}and in that knowing, may God's love bubble up and overflow from your heart into the world around you.",
+                "{sm}May you go now in the blessing of God",
+                "{sm}who forgives our sins and empowers us",
               ],
             },
             {
-              lines: ["Amen"],
+              lines: [
+                "{xs}Pastor:",
+                "{sm}to turn once again to be and become",
+                "{sm}who God calls us to be.",
+              ],
             },
             {
               lines: [
@@ -826,10 +568,10 @@ const presentation: Presentation = {
           ],
         },
         {
-          name: "EXTINGUISHING OF CANDLES",
+          name: "POSTLUDE",
           pages: [
             {
-              lines: ["Extiguishing of candles"],
+              lines: ["{sm}UMC Daly City Chancel Choir"],
             },
           ],
         },

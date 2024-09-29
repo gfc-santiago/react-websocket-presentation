@@ -66,7 +66,7 @@ export default forwardRef<HTMLUListElement, PageListingProps>(
 function SectionLayout({ section, onShow, current }: SectionLayoutProps) {
   return (
     <>
-      <ListSubheader>{section.name}</ListSubheader>
+      <ListSubheader sx={{ color: "warning.main" }}>{section.name}</ListSubheader>
       {section.pages.map((page) => {
         return (
           <PageLayout
