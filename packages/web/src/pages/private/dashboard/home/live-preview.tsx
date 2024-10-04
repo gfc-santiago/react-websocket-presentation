@@ -24,6 +24,8 @@ export default function LivePreview() {
         border: "1px solid",
         backgroundImage: "url('/images/sample.jpg')",
         backgroundSize: "100% 100%",
+        width: "90vw",
+        maxWidth: "400px",
       }}
     >
       <Box

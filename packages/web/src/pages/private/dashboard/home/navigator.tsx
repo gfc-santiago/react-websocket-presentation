@@ -51,6 +51,10 @@ export default function Navigator({
           sx={{
             textAlign: "center",
             visibility: prev ? "visible" : "hidden",
+            maxWidth: "30vw",
+            textWrap: "nowrap",
+            textOverflow: "ellipsis",
+            overflow: "hidden",
           }}
           variant="caption"
         >
@@ -61,6 +65,10 @@ export default function Navigator({
           sx={{
             textAlign: "center",
             visibility: next ? "visible" : "hidden",
+            maxWidth: "30vw",
+            textWrap: "nowrap",
+            textOverflow: "ellipsis",
+            overflow: "hidden",
           }}
           variant="caption"
         >

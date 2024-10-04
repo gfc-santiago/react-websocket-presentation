@@ -2,8 +2,12 @@ import {
   PageCollectionType,
   Presentation,
 } from "../pages/private/dashboard/types.d";
-import UMH_593 from "./songs/hymn/umh-593";
-import UMH_73 from "./songs/hymn/umh-73";
+import Communion from "./responses/communion";
+import PrayerOfDeclaration from "./responses/prayer-of-declaration";
+import TFWS_2149 from "./songs/hymn/tfws-2149";
+import UMH_64 from "./songs/hymn/umh-64";
+import UMH_70 from "./songs/hymn/umh-70";
+import UMH_95 from "./songs/hymn/umh-95";
 import { AdonaiShortVer } from "./songs/praise-and-worship/adonai";
 import OComeToTheAltar from "./songs/praise-and-worship/o-come-to-the-altar";
 import SingSingSing from "./songs/praise-and-worship/sing-sing-sing";
@@ -15,13 +19,13 @@ const presentation: Presentation = {
       title: "Intro",
       pages: [
         {
-          lines: ["{xs}Announcements:","{sm}Sis. Elma Oliman"],
+          lines: ["{xs}Announcements:", "{sm}Sis. Elma Oliman"],
         },
         {
           lines: [
             "{sm}Worship Service",
-            "{xs}September 29, 2024",
-            "{xs}19th Sunday after Pentecost",
+            "{xs}October 6, 2024",
+            "{xs}20th Sunday after Pentecost - World Communion sunday",
           ],
         },
         {
@@ -39,7 +43,7 @@ const presentation: Presentation = {
       ],
       type: PageCollectionType.Response,
     },
-    UMH_73,
+    UMH_64,
     {
       title: "Pre Worship",
       alias: "Liturgist",
@@ -48,147 +52,91 @@ const presentation: Presentation = {
           name: "Call to Worship",
           pages: [
             {
-              lines: [
-                "{xs}Liturgist:",
-                "{sm}Children of God, you are welcome here.",
-              ],
+              lines: ["{sm}Norma B. Valle", "{xs}Liturgist"],
+            },
+            {
+              lines: ["Call to Worship"],
             },
             {
               lines: [
                 "{xs}Liturgist:",
-                "{sm}All of who you are even your regrets and failing",
-                "{sm}is welcome here",
+                "{sm}Family of God, what is our story?",
               ],
             },
             {
               lines: [
                 "{xs}People:",
-                "{sm}We come to tell the truth about",
-                "{sm}who we are in relationship with God.",
+                "{sm}We are part of God’s good creation",
+                "{sm}created and sustained by the Triune God.",
               ],
             },
             {
               lines: [
                 "{xs}Liturgist:",
-                "{sm}Many of us find it easy to recognize",
-                "{sm}our goodness and difficult to notice our sins.",
+                "{sm}Family of God, what is our story?",
               ],
             },
             {
               lines: [
                 "{xs}People:",
-                "{sm}We come to tell the truth about",
-                "{sm}who we are in relationship with God.",
+                "{sm}Though created by our loving God, we have sinned",
+                "{sm}and harmed ourselves, one another, and creation.",
               ],
             },
             {
               lines: [
                 "{xs}Liturgist:",
-                "{sm}Others of us live under",
-                "{sm}a shroud of guilt and shame",
-              ],
-            },
-            {
-              lines: [
-                "{xs}Liturgist:",
-                "{sm}believing we can never be good enough",
-                "{sm}to receive the fullness of God's love.",
+                "{sm}Family of God, what is our story?",
               ],
             },
             {
               lines: [
                 "{xs}People:",
-                "{sm}We come to tell the truth about",
-                "{sm}who we are in relationship with God.",
+                "{sm}While we were yet sinners, God sent Jesus to show us",
+                "{sm}how to turn away from sin and toward the love of God",
               ],
             },
             {
               lines: [
                 "{xs}Liturgist:",
-                "{sm}However, you enter this place, know this:",
-                "{sm}you are loved, accepted, and called.",
+                "{sm}Family of God, what is our story?",
+              ],
+            },
+            {
+              lines: [
+                "{xs}People:",
+                "{sm}We carry the weight of the Word",
+                "{sm}in our hearts, our hands, and 	our voices",
+              ],
+            },
+            {
+              lines: [
+                "{xs}People:",
+                "{sm}proclaiming with our lives the good news.",
+                "{sm}of God’s love and the mercy of God’s grace",
               ],
             },
             {
               lines: [
                 "{xs}Liturgist:",
-                "{sm}May God's love draw us to honest confession",
+                "{sm}Family of God, this is our story and our song!",
               ],
-            },
-            {
-              lines: [
-                "{xs}Liturgist:",
-                "{sm}God's acceptance assures us of",
-                "{sm}the work of grace in our lives",
-              ],
-            },
-            {
-              lines: [
-                "{xs}Liturgist:",
-                "{sm}and God's call compels us to live in grace.",
-              ],
-            },
-            {
-              lines: ["{xs}All:", "{sm}We come to tell the truth"],
-            },
-            {
-              lines: [
-                "{xs}All:",
-                "{sm} about who we are in relationship with God",
-                "{sm}who loves us, accepts us, and calls us",
-              ],
-            },
-            {
-              lines: ["Amen"],
             },
           ],
         },
         {
-          name: "Praise and Worship",
+          name: "Opening Prayer",
           pages: [
             {
-              lines: ["{xs}Praise And Worship", "{sm}Psalms 108 Praise Band"],
+              lines: ["{sm}Opening Prayer", "Norma B. Valle", "{xs}Liturgist"],
             },
           ],
         },
         {
-          name: "Prayer for the day",
+          name: "Praise & Worship",
           pages: [
             {
-              lines: ["Prayer for the day", "{xs}(The Community in Unison)"],
-            },
-            {
-              lines: [
-                "{sm}Holy God, joy of the universe,",
-                "{sm}it is your awesome love that brings us here.",
-              ],
-            },
-            {
-              lines: [
-                "{sm}You awaken within us a loving response,",
-                "{sm}which hungers and thirsts for your truth and beauty.",
-              ],
-            },
-            {
-              lines: [
-                "{sm}As we worship you, please do not give us",
-                "{sm}the blessings we want but the ones we most need.",
-              ],
-            },
-            {
-              lines: [
-                "{sm}Satisfy us with the truth that we may need,",
-                "{sm}though such truth might be most uncomfortable,",
-              ],
-            },
-            {
-              lines: [
-                "{sm}and confront us with your holy beauty,",
-                "{sm}that brings us healing.",
-              ],
-            },
-            {
-              lines: ["{sm}Through Christ Jesus your joyful Son.", "{sm}Amen!"],
+              lines: ["Praise & Worship", "{xs}Psalms 108"],
             },
           ],
         },
@@ -261,7 +209,7 @@ const presentation: Presentation = {
           name: "Scripture Reading",
           pages: [
             {
-              lines: ["{xs}Reading from the scriptures", "{sm}Matthew 6:19-24"],
+              lines: ["{xs}Reading from the scriptures", "{sm}Romans 8:5-17"],
             },
             {
               lines: [
@@ -277,34 +225,7 @@ const presentation: Presentation = {
       ],
       type: PageCollectionType.Response,
     },
-    {
-      alias: "response",
-      title: "Glory Be to the Father",
-      author: "UMH #70",
-      pages: [
-        {
-          name: "Verse 1",
-          pages: [
-            {
-              lines: [
-                "Glory be to the Father",
-                "and to the Son and to the Holy Ghost",
-              ],
-            },
-            {
-              lines: [
-                "as it was in the beginning",
-                "is now, and ever shall be",
-              ],
-            },
-            {
-              lines: ["world without end", "Amen. Amen."],
-            },
-          ],
-        },
-      ],
-      type: PageCollectionType.Song,
-    },
+    UMH_70,
     {
       title: "Pre-message",
       pages: [
@@ -313,7 +234,7 @@ const presentation: Presentation = {
           pages: [
             {
               lines: [
-                "{sm}\"He's Got the Whole World / This is My Father's World\"",
+                '{sm}"In Remembrance of our Lord"',
                 "{xs}UMC Daly City Chancel Choir",
                 "{xs}Rebecca Katigbak-Grear, Conducting",
                 "{xs}Roxanne Sacun, Accompanist",
@@ -321,60 +242,10 @@ const presentation: Presentation = {
             },
           ],
         },
-        {
-          name: "OFFERING",
-          pages: [
-            {
-              lines: [
-                "{sm}SPECIAL ANNIVERSARY OFFERING",
-                "{xs}Church Electrical Replacement/Upgrade Project",
-                "{xs}Ushers:  Maria “Rosie” Pascua and Nancy David",
-              ],
-            },
-          ],
-        },
-        {
-          name: "Prayer of declaration",
-          pages: [
-            {
-              lines: [
-                "{sm}Prayer of declaration",
-                "{xs}(The Community in Unison)",
-              ],
-            },
-            {
-              lines: [
-                "I declare I will experience God's faithfulness",
-                "I will not worry; I will not doubt",
-              ],
-            },
-            {
-              lines: [
-                "I will keep my trust in Him",
-                "knowing that he will not fail me.",
-              ],
-            },
-            {
-              lines: [
-                "I will give birth",
-                " to every promise I put in my heart",
-              ],
-            },
-            {
-              lines: ["and I will become everything", "He created me to be"],
-            },
-            {
-              lines: ["I declare I have the grace", "I need for today."],
-            },
-
-            {
-              lines: ["In Jesus Name I pray", "Amen."],
-            },
-          ],
-        },
       ],
       type: PageCollectionType.Response,
     },
+    PrayerOfDeclaration,
     {
       title: "Message",
       pages: [
@@ -383,9 +254,9 @@ const presentation: Presentation = {
           pages: [
             {
               lines: [
-                '{sm}"Treasure on Earth and The Lamp of the Body"',
-                "{sm}Rev. Oliver S. Mangubat, D.Min.",
-                "{xs}UMCDC Administrative Pastor",
+                "{xs}Today's message:",
+                '"Life in The Spirit of God"',
+                "{sm}Romans 8:5-17",
               ],
             },
             {
@@ -393,9 +264,6 @@ const presentation: Presentation = {
                 "{sm}Rev. Oliver S. Mangubat, D.Min.",
                 "{xs}UMCDC Administrative Pastor",
               ],
-            },
-            {
-              lines: ["{sm}Scripture Text", "{sm}Matthew 6:19-24"],
             },
           ],
         },
@@ -456,31 +324,30 @@ const presentation: Presentation = {
     {
       title: "Post Message",
       pages: [
-        // {
-        //   name: "Special Offertory Number",
-        //   pages: [
-        //     {
-        //       lines: [
-        //         "{xs}Special Offertory Number",
-        //         '{sm}"Who You Say Iam"',
-        //         "{xs}Mylene Soriano",
-        //       ],
-        //     },
-        //   ],
-        // },
         {
           name: "INVITATION TO THE OFFERING",
           pages: [
             {
+              lines: ["{sm}INVITATION TO THE OFFERING", "Proverbs 3:9-10 NIV"],
+            },
+            {
               lines: [
-                "{xs}Luke 6:38 NIV",
-                "{sm}Give, and it will be given to you pressed down, shaken together and running over will be poured into your lap. For with the measure you use, it will be measured to you.",
+                "{xs}Proverbs 3:9-10 NIV",
+                "{sm}Honor the LORD with your wealth",
+                "{sm}with the first fruits of all your crops",
               ],
             },
             {
               lines: [
-                "The Gathering of Our Tithes and Offerings",
-                "{xs}Ushers:  Maria “Rosie” Pascua and Nancy David",
+                "{xs}Proverbs 3:9-10 NIV",
+                "{sm}then your barns will be filled to overflowing",
+                "{sm}and your vats will brim over with new wine",
+              ],
+            },
+            {
+              lines: [
+                "{sm}The Gathering of Our Tithes and Offerings",
+                "{xs}Ushers: Elly Valle and Cris Reyes",
               ],
             },
           ],
@@ -488,31 +355,45 @@ const presentation: Presentation = {
       ],
       type: PageCollectionType.Response,
     },
+    UMH_95,
     {
-      title: "Doxology",
-      author: "UMH #95",
+      title: "Prayer",
       pages: [
         {
-          name: "Verse 1",
-          pages: [
-            {
-              lines: [
-                "Praise God, from whom all blessings flow",
-                "praise Him, all creatures here below",
-              ],
-            },
-            {
-              lines: [
-                "praise Him above, ye heavenly hosts;",
-                "Praise Father, Son, and Holy Ghost. Amen",
-              ],
-            },
+          lines: ["{sm}Prayer", "{xs}(Community in unison)"],
+        },
+        {
+          lines: [
+            "{sm}Gracious God, in awe of your omniscience,",
+            "{sm}we offer our gifts today",
           ],
         },
+        {
+          lines: [
+            "{sm}Just as you intimately know us,",
+            "{sm}help us understand and trust in your vastness",
+          ],
+        },
+        {
+          lines: [
+            "{sm}As we reflect on our beliefs",
+            "{sm}may our stewardship reflect our trust in your guiding hand",
+          ],
+        },
+        {
+          lines: [
+            "{sm}Guide us to embody our creed",
+            "{sm}living as a community of faith in love, service, and action.",
+          ],
+        },
+        {
+          lines: ["{sm}Amen"],
+        },
       ],
-      type: PageCollectionType.Song,
+      type: PageCollectionType.Response,
     },
-    UMH_593,
+    Communion,
+    TFWS_2149,
     {
       title: "Closing",
       pages: [
@@ -522,22 +403,15 @@ const presentation: Presentation = {
             {
               lines: [
                 "{xs}Pastor:",
-                "{sm}Beloved, receive this good news:",
-                "{sm}Nothing can separate you from the love of God.",
+                "{sm}Beloved, go from this place blessed with divine contentment",
+                "{sm}in the deep and beautiful knowledge that in all things",
               ],
             },
             {
               lines: [
                 "{xs}Pastor:",
-                "{sm}May you go now in the blessing of God",
-                "{sm}who forgives our sins and empowers us",
-              ],
-            },
-            {
-              lines: [
-                "{xs}Pastor:",
-                "{sm}to turn once again to be and become",
-                "{sm}who God calls us to be.",
+                "{sm}the power of the crucified",
+                "{sm}and resurrected Christ dwells in you",
               ],
             },
             {

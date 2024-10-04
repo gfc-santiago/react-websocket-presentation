@@ -11,6 +11,6 @@ interface SocketInfo {
 
 export const SocketContext = createContext<SocketInfo>({});
 
-export default function useConfig() {
+export default function useSocket() {
   return useContext(SocketContext);
 }

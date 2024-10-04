@@ -1,4 +1,9 @@
-import { Box, IconButton } from "@mui/material";
+import {
+  BottomNavigation,
+  BottomNavigationAction,
+  Box,
+  IconButton,
+} from "@mui/material";
 import LivePreview from "./live-preview";
 import Navigator from "./navigator";
 import { PlayArrow } from "@mui/icons-material";
@@ -10,7 +15,7 @@ import CancelPresentationIcon from "@mui/icons-material/CancelPresentation";
 import { useSocket } from "../../../../hooks";
 import useCollection from "../../../../hooks/collection";
 
-export default function HomePage() {
+export default function DashboardHomePage() {
   const history = useRef<string | undefined>("");
   const [showPreview, togglePreview] = useState(true);
   const listRef = useRef<HTMLUListElement>(null);
@@ -113,13 +118,7 @@ export default function HomePage() {
   }, [socket, moveTo, clear]);
 
   return (
-    <Box
-      sx={{
-        display: "flex",
-        flexDirection: "column",
-        height: "calc(100vh - 48px)",
-      }}
-    >
+    <>
       {showPreview && (
         <Box
           sx={{
@@ -132,7 +131,42 @@ export default function HomePage() {
           <LivePreview />
         </Box>
       )}
-
+      <BottomNavigation
+        showLabels
+        sx={{
+          position: "sticky",
+          top: "0",
+          zIndex: 999,
+          backgroundColor: "primary.dark",
+        }}
+      >
+        <BottomNavigationAction
+          label={showPreview ? "Hide Preview" : "Preview"}
+          onClick={() => togglePreview(!showPreview)}
+          sx={{ color: "primary.contrastText" }}
+          icon={
+            showPreview ? <DesktopAccessDisabledIcon /> : <OndemandVideoIcon />
+          }
+        />
+        <BottomNavigationAction
+          label="Clear"
+          onClick={handleClear}
+          sx={{ color: "primary.contrastText" }}
+          icon={<CancelPresentationIcon />}
+        />
+        <BottomNavigationAction
+          label="Prev"
+          onClick={handlePrev}
+          sx={{ color: "primary.contrastText" }}
+          icon={<PlayArrow sx={{ transform: "rotate(180deg)" }} />}
+        />
+        <BottomNavigationAction
+          onClick={handleNext}
+          label="Next"
+          sx={{ color: "primary.contrastText" }}
+          icon={<PlayArrow />}
+        />
+      </BottomNavigation>
       <Box
         sx={{
           p: 2,
@@ -151,7 +185,7 @@ export default function HomePage() {
           ref={listRef}
           collection={items[collectionIndex]}
           sx={{
-            height: `calc(100% - 200px)`,
+            maxHeight: `calc(100vh - ${showPreview ? 470 : 240}px)`,
           }}
           onShow={handleShow}
           current={selected}
@@ -161,32 +195,6 @@ export default function HomePage() {
           }}
         />
       </Box>
-      <Box
-        component="footer"
-        sx={{
-          p: 2,
-          display: "flex",
-          justifyContent: "space-around",
-          position: "absolute",
-          bottom: 0,
-          width: "100%",
-          boxSizing: "border-box",
-          textAlign: "center",
-        }}
-      >
-        <IconButton onClick={() => togglePreview(!showPreview)}>
-          {showPreview ? <DesktopAccessDisabledIcon /> : <OndemandVideoIcon />}
-        </IconButton>
-        <IconButton onClick={handleClear}>
-          <CancelPresentationIcon />
-        </IconButton>
-        <IconButton onClick={handlePrev}>
-          <PlayArrow sx={{ transform: "rotate(180deg)" }} />
-        </IconButton>
-        <IconButton onClick={handleNext}>
-          <PlayArrow />
-        </IconButton>
-      </Box>
-    </Box>
+    </>
   );
 }
