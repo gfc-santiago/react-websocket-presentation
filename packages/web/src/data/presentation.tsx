@@ -8,9 +8,9 @@ import TFWS_2149 from "./songs/hymn/tfws-2149";
 import UMH_64 from "./songs/hymn/umh-64";
 import UMH_70 from "./songs/hymn/umh-70";
 import UMH_95 from "./songs/hymn/umh-95";
-import { AdonaiShortVer } from "./songs/praise-and-worship/adonai";
-import OComeToTheAltar from "./songs/praise-and-worship/o-come-to-the-altar";
+import { GoodbyeYesterdayShortVer } from "./songs/praise-and-worship/goodbye-yesterday";
 import SingSingSing from "./songs/praise-and-worship/sing-sing-sing";
+import Worthy from "./songs/praise-and-worship/worthy";
 
 const presentation: Presentation = {
   id: "Service",
@@ -143,9 +143,9 @@ const presentation: Presentation = {
       ],
       type: PageCollectionType.Response,
     },
-    AdonaiShortVer,
+    GoodbyeYesterdayShortVer,
     SingSingSing,
-    OComeToTheAltar,
+    Worthy,
     {
       title: "Service Proper",
       pages: [
