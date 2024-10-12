@@ -1,5 +1,9 @@
 import React from "react";
-import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  Navigate,
+  RouterProvider,
+} from "react-router-dom";
 import { NotFoundError } from "./public/errors/note-found-error";
 import { ServerError } from "./public/errors/server-error";
 import PrivateLayout from "./private";
@@ -19,7 +23,7 @@ const AppRoutes: React.FC = () => {
       children: [
         {
           path: "/",
-          element: <Navigate to="/dashboard" />
+          element: <Navigate to="/dashboard" />,
         },
         {
           path: "/dashboard",

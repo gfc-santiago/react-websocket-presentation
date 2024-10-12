@@ -30,7 +30,7 @@ export default function Navigator({
   };
 
   const getSubtitle = (collection: PageCollection): string | undefined => {
-    switch (collection.type) {
+    switch (collection?.type) {
       case PageCollectionType.Song:
         return (collection as Song).author;
       case PageCollectionType.Verse:
@@ -96,7 +96,7 @@ export default function Navigator({
           }}
         >
           <Typography textAlign="center" variant="subtitle1">
-            {current.title}
+            {current?.title}
           </Typography>
           {subtitle && (
             <Typography textAlign="center" variant="subtitle2">

@@ -1,8 +1,6 @@
 import { AppBar, Box, IconButton, Toolbar, Typography } from "@mui/material";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import SocketProvider from "../../../hooks/socket-provider";
-import CollectionProvider from "../../../hooks/collection-provider";
-import presentation from "../../../data/presentation";
 import { ChevronLeft } from "@mui/icons-material";
 export default function DashboardLayout() {
   const location = useLocation();
@@ -35,9 +33,7 @@ export default function DashboardLayout() {
         </Toolbar>
       </AppBar>
       <SocketProvider>
-        <CollectionProvider presentation={presentation}>
-          <Outlet />
-        </CollectionProvider>
+        <Outlet />
       </SocketProvider>
     </Box>
   );

@@ -12,6 +12,26 @@ export interface Collection {
   presentation?: Presentation;
 }
 
+export interface FileFormat {
+  id: string;
+  sections: DataFormat[];
+}
+
+export interface DataFormat {
+  name?: string;
+  content?: string;
+  ref?: string;
+  sequence?: string;
+}
+
+export interface RefFormat {
+  title?: string;
+  artist?: string;
+  sections?: object;
+  content?: string;
+  sequence?: string;
+}
+
 export const CollectionContext = createContext<Collection>({
   collection: [],
   pages: [],

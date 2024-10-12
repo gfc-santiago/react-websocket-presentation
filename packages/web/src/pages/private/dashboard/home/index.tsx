@@ -80,7 +80,11 @@ export default function DashboardHomePage() {
   };
 
   const handlePrev = () => {
-    socket?.prompt?.({ type: "text", id: prev ?? history.current });
+    if (prev)
+      socket?.prompt?.({
+        type: "text",
+        id: prev ?? history.current,
+      });
   };
 
   const handleClear = () => {

@@ -1,0 +1,140 @@
+id: svc1013
+sections: 
+  - name: Intro
+    content: |
+      {sm}Announcements
+      Sis. Elma Oliman
+
+      {xs}Worship Service
+      {xs}October 13, 2024
+      {xs}Laity Month Celebration
+
+      {xs}Ligthing of the altar and paschal candles
+      Accolyte
+
+      {xs}Prelude
+      Roxanne Sacun
+      {xs}Pianist
+
+      {xs}Introit
+      UMC Daly City Chancel Choir
+      
+      {xs}Hymn of Praise
+      UMCDC Praise Band
+  
+  - ref: hymn/umh-98
+    
+  - name: Call To Worship
+    content: |
+      {xs}Liturgist:
+      We gather to listen to the voice of 
+      Jesus say, “Come, follow me!”
+
+      {xs}Liturgist:
+      But will you follow when Jesus also calls you 
+      to release the hold wealth has on you?
+
+      {xs}People:
+      We want to follow Jesus anywhere he leads,
+      and we can with God’s help.
+
+      {xs}Liturgist:
+      We gather to remember all that God has 
+      taught us through scripture, tradition, reason, and experience.
+
+      {xs}Liturgist:
+      But what about when we have to put 
+      what we know into action?
+
+      {xs}People:
+      We want to put our faith into action,
+      and we can with God’s help.
+
+      {xs}Liturgist:
+      We gather to live into God’s economy of abundance,
+      recognizing the riches of the prayers, presence,
+      
+      {xs}Liturgist:
+      gifts, service, and witness that surround us. 
+      But what about when the world tempts us back into scarcity?
+
+      {xs}People:
+      We want to turn away from scarcity and
+      choose God’s abundance, and we can with God’s help.
+
+      {xs}Liturgist:
+      We gather to shine as a beacon
+      of a new way of living where following
+
+      {xs}Liturgist:
+      Jesus means sharing in God’s abundant gifts together.
+      But will you keep shining when others try to pull you astray,
+
+      {xs}Liturgist:
+      putting the pursuit ofwealth before the pursuit of God?
+
+      {xs}People:
+      With God’s help, we will resist 
+      the pull of wealth and the fear of scarcity
+
+      {xs}People:
+      and pursue the way of love, abundance, 
+      and flourishing for all creation. Amen.
+
+  - name: Praise and Worship
+    content: |
+      {sm}Praise & Worship
+      Psalms 108
+  
+  - ref: paw/goodbye-yesterday
+    sequence: V1 C V1 C V1 V2 C B
+  
+  - ref: paw/sing-sing-sing
+    sequence: C V1 V2 C V1 V2 C C
+  
+  - name: Sharing
+    content: |
+      Sharing of Praises and Thanksgiving
+      
+      Sister Benilda Gayagoy
+      {xs}Administrative Council Chairperson
+  
+  - ref: resp/the-lords-prayer
+  
+  - name: Reading from the scriptures
+    content: |
+      {xs}Reader: 
+      The Word of God for the people of God.
+
+      {xs}People:
+      Thanks be to God!
+
+  - ref: hymn/umh-70
+
+  - name: The Anthem
+    content: |
+      "In Remembrance of our Lord"
+      {xs}UMC Daly City Chancel Choir
+      {xs}Rebecca Katigbak-Grear, Conducting
+      {xs}Roxanne Sacun, Accompanist
+
+  - name: The Message
+    content: |
+      Sister Elma Oliman
+      {xs}Lay Speaker
+  
+  - ref: resp/offering
+
+  - ref: hymn/umh-95
+
+  - ref: hymn/umh-140
+
+  - ref: resp/dismissal
+
+  - name: Postlude
+    content: |
+      UMCDC Chancel Choir
+
+      {xs}Postlude
+      Roxanne Sacun
+      {xs}Pianist

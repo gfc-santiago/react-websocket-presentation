@@ -43,11 +43,11 @@ export default function Viewer() {
   const lines = useMemo(() => {
     return page?.lines.map((line, idx) => {
       const [, type, content] = line?.match(/^\{(xs|sm|lg|xl)\}(.*)/) ?? [];
-      const style: SxProps<Theme> = { fontSize: "5em" };
+      const style: SxProps<Theme> = { fontSize: "4em" };
       if (type === "xs") {
-        style.fontSize = "3em";
+        style.fontSize = "2.6em";
       } else if (type === "sm") {
-        style.fontSize = "4em";
+        style.fontSize = "3.3em";
       } else if (type === "lg") {
         style.fontSize = "7em";
       } else if (type === "xl") {
@@ -77,7 +77,7 @@ export default function Viewer() {
         bottom: 0,
         right: 0,
         ...layout,
-        background: `radial-gradient(circle,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 80%,rgba(0, 0, 0, 0) 100%)`,
+        background: `radial-gradient(circle,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 90%,rgba(0, 0, 0, 0) 100%)`,
         textAlign: "center",
         color: "#fff",
         transition: "opacity 0.5s",
