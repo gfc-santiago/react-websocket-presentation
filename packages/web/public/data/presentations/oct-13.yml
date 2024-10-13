@@ -85,12 +85,10 @@ sections:
     content: |
       {sm}Praise & Worship
       Psalms 108
-  
-  - ref: paw/goodbye-yesterday
-    sequence: V1 C V1 C V1 V2 C B
-  
-  - ref: paw/sing-sing-sing
-    sequence: C V1 V2 C V1 V2 C C
+
+  - ref: paw/deep-cries-out
+
+  - ref: paw/make-room
   
   - name: Sharing
     content: |
