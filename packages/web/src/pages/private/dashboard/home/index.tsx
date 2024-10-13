@@ -2,7 +2,6 @@ import {
   BottomNavigation,
   BottomNavigationAction,
   Box,
-  IconButton,
 } from "@mui/material";
 import LivePreview from "./live-preview";
 import Navigator from "./navigator";
