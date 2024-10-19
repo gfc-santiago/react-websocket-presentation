@@ -30,7 +30,7 @@ export default function CollectionProvider({
     queryKey: ["presentation"],
     queryFn: () => {
       return axios
-        .get("/data/presentations/oct-13.yml")
+        .get("/data/presentations/oct-20.yml")
         .then((resp): FileFormat => yaml.load(resp.data) as FileFormat)
         .then(async ({ id, sections }) => {
           const toLines = (s: string): Page[] => {

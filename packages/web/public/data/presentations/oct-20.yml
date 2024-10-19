@@ -1,0 +1,181 @@
+id: svc1013
+sections: 
+  - name: Intro
+    content: |
+      {sm}Announcements
+      Sis. Elma Oliman
+
+      {xs}Worship Service
+      {xs}October 20, 2024
+      {xs}LAITY AND WORKERS APPRECIATION MONTH
+
+      {xs}Ligthing of the altar and paschal candles
+      Accolyte
+
+      {xs}Prelude
+      Roxanne Sacun
+      {xs}Pianist
+
+      {xs}Introit
+      UMC Daly City Chancel Choir
+  
+  - ref: hymn/umh-89
+    
+  - name: Call To Worship
+    content: |
+
+      Norma B. Valle
+      {xs}Liturgist
+
+      {xs}Liturgist:
+      Welcome all who long to encounter Jesus, 
+      the one who loves,tends, sustains, and saves us.
+
+      {xs}People:
+      Jesus said, 
+      “The Son of Man came not to be served but to serve.”
+
+      {xs}Liturgist:
+      Welcome all who walk the halls of power, who feel pushed
+      and pulled to fight for position, status, and authority.
+
+      {xs}People:
+      Jesus said, 
+      “The Son of Man came not to be served but to serve.”
+
+      {xs}Liturgist:
+      Welcome all who feel burned out,
+      who have given more than they have day in and day out 
+      
+      {xs}Liturgist:
+      and long for someone to notice that you,
+      too, need help and support.
+
+      {xs}People:
+      Jesus said, 
+      “The Son of Man came not to be served but to serve.”
+
+      {xs}Liturgist:
+      Welcome, followers of Christ, who came to serve
+      and show God’s abundant love and grace among us.
+
+      {xs}People:
+      We come to worship Jesus who shows us
+      that serving is the fruit of our love 
+      
+      {xs}People:
+      and being served by one another is the source
+      of our power as the Body of Christ. Amen.
+
+  - name: Opening Prayer
+    content: |
+      Opening Prayer
+      {xs}(Community In Unison)
+
+      Though you are God, with all the influence
+      and status that the name implies,
+      
+      you refused to pull rank,
+      and parade your power among us.
+      
+      Instead, you chose to step down
+      into our experience, living among us,
+      
+      as one of us, with all the struggle and suffering
+      that goes with being human.
+
+      More than that, you adopted the role of servant,
+      washing feet, serving people of no reputation
+      
+      or social standing, 
+      and giving of yourself completely.
+      
+      As incredible as it sounds,
+      you are the God who serves,
+      
+      and we can respond in no other way
+      than to give ourselves to you in praise.
+      
+      Amen.
+
+  - name: Praise and Worship
+    content: |
+      {sm}Praise & Worship
+      Psalms 108
+
+  - ref: paw/goodbye-yesterday
+  
+  - ref: paw/sing-sing-sing
+
+  - ref: paw/firm-foundation
+  
+  - name: Sharing
+    content: |
+      Sharing of Praises and Thanksgiving
+      
+      Sister Benilda Gayagoy
+      {xs}Administrative Council Chairperson
+  
+  - name: Reading from the scriptures
+    content: |
+      {xs} Reading from the scriptures:
+      Romans 12:4-8
+      {sm}"The Parable of the Talents"
+
+      {xs}Reader: 
+      The Word of God for the people of God.
+
+      {xs}People:
+      Thanks be to God!
+
+  - ref: hymn/umh-70
+
+  - name: The Anthem
+    content: |
+      "Rock-A My Soul"
+      {xs}UMC Daly City Chancel Choir
+      {xs}Rebecca Katigbak-Grear, Conducting
+
+  - ref: resp/prayer-of-declaration
+
+  - name: The Message
+    content: |
+
+      Rev. Oliver S. Mangubat, D.Min.
+      UMCDC Administrative Pastor
+
+      {sm}“Stewardship of Talent: A God of Creativity”
+      Regi Castor
+      {xs}Lay Speaker
+
+  - name: LAITY AND WORKERS APPRECIATION
+    content: |
+      Elenita Gonzales
+      SPRC Chairperson
+
+  - ref: resp/offering
+
+  - ref: hymn/umh-95
+
+  - ref: hymn/umh-361
+    sequence: V1 V2 V3
+  
+  - name: Annointing of Oil
+    content: |
+      Annointing of Oil and Prayer of Consecration
+
+  - ref: hymn/umh-361
+    sequence: V4
+
+  - ref: resp/dismissal
+  
+  - name: Postlude
+    content: |
+      Rev. Oliver S. Mangubat, D.Min.
+      UMCDC Administrative Pastor
+
+      UMCDC Chancel Choir
+
+      {xs}Postlude
+      Roxanne Sacun
+      {xs}Pianist
