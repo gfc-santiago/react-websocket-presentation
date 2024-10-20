@@ -10,7 +10,7 @@ export default function ConfigProvider({ children }: ConfigProviderProps) {
     const url = new URL(window.location.href);
     url.port = "5000";
     // url.protocol = "ws";
-    return { host: url.origin };
+    return { host: url.origin, camera: "http://10.0.0.225/" };
   }, []);
 
   return (

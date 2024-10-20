@@ -53,7 +53,7 @@ export default function HomePage() {
           </Link>
         </Grid2>
         <Grid2 size={{ xs: 6 }} sx={{ p: 1 }}>
-          <Link to="/camera" target="_blank">
+          <Link to={config?.camera ?? ""} target="_blank">
             <Button
               fullWidth
               variant="outlined"
