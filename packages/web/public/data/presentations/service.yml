@@ -1,0 +1,136 @@
+id: svc1027
+sections: 
+  - name: Intro
+    content: |
+      {sm}Announcements
+      Sis. Elma Oliman
+
+      {xs}Worship Service
+      {xs}October 27, 2024
+      {xs}Twenty-Third Sunday after Pentecost, Year B
+  
+      {xs}Lighting of the altar and paschal candles
+      Accolyte
+
+      {xs}Prelude
+      Roxanne Sacun
+      {xs}Pianist
+
+      {xs}Introit
+      UMC Daly City Chancel Choir
+  
+  - ref: hymn/umh-154
+    
+  - name: Call To Worship
+    content: |
+
+      Norma B. Valle
+      {xs}Liturgist
+
+      {xs}Liturgist:
+      Some of us come today with hearts weighed down with anxiety,
+      fear, despair, and hurt. Together we cling to this truth:
+
+      {xs}People:
+      God’s steadfast love endures forever.
+
+      {xs}Liturgist:
+      Some of us come today with hearts that feel light with relief, joy,
+      comfort, and gratitude. Together we cling to this truth:
+
+      {xs}People:
+      God’s steadfast love endures forever.
+
+      {xs}Liturgist:
+      Some of us come today not knowing what we think about God,
+      confused and disappointed that the world
+
+      {xs}Liturgist:
+      Be with us, God, in all that we bring with us,
+      as we gather to encounter your unchanging love.
+ 
+      {xs}All:
+      and being served by one another is the source
+      of our power as the Body of Christ. Amen.
+
+  - name: Opening Prayer
+    content: |
+
+  - name: Praise and Worship
+    content: |
+      {sm}Praise & Worship
+      Psalms 108
+
+  - ref: paw/come-fill-my-world
+  
+  - ref: paw/sing-sing-sing
+
+  - ref: paw/when-the-fight-calls
+  
+  - name: Sharing
+    content: |
+      Sharing of Praises and Thanksgiving
+      
+      Sister Benilda Gayagoy
+      {xs}Administrative Council Chairperson
+  
+  - name: Reading from the scriptures
+    content: |
+      {xs} Reading from the scriptures:
+      Matthew 22:37-38
+
+      {xs}Reader: 
+      The Word of God for the people of God.
+
+      {xs}People:
+      Thanks be to God!
+
+  - ref: hymn/umh-70
+
+  - name: The Anthem
+    content: |
+      "Potter's Hand"
+      {xs}UMC Daly City Chancel Choir
+      {xs}Rebecca Katigbak-Grear, Conducting
+      {xs}Roxanne Sacun Pianist, Pianist
+
+  - ref: resp/prayer-of-declaration
+
+  - name: The Message
+    content: |
+
+      Rev. Oliver S. Mangubat, D.Min.
+      UMCDC Administrative Pastor
+
+      {sm}“Time on Earth is Short, Eternity is Not. What Are You Living For?”
+      Michelle M. Mangubat
+      {xs}Lay Speaker
+
+  - ref: resp/offering
+
+  - ref: hymn/umh-95
+
+  - ref: hymn/umh-170
+    sequence: V1 R V2 R
+
+  - name: Prayer
+    content: |
+      {sm}Closing Prayer
+      Rev. Oliver S. Mangubat, D.Min.
+      UMCDC Administrative Pastor
+
+  - ref: hymn/umh-170
+    sequence: V3 R
+
+  - ref: resp/dismissal
+  
+  - name: Postlude
+    content: |
+      Rev. Oliver S. Mangubat, D.Min.
+      UMCDC Administrative Pastor
+
+      UMCDC Chancel Choir
+
+      {xs}Postlude
+      Roxanne Sacun
+      {xs}Pianist

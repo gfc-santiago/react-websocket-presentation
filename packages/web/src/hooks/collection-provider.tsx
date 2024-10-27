@@ -30,7 +30,7 @@ export default function CollectionProvider({
     queryKey: ["presentation"],
     queryFn: () => {
       return axios
-        .get("/data/presentations/oct-20.yml")
+        .get("/data/presentations/service.yml")
         .then((resp): FileFormat => yaml.load(resp.data) as FileFormat)
         .then(async ({ id, sections }) => {
           const toLines = (s: string): Page[] => {
@@ -85,7 +85,6 @@ export default function CollectionProvider({
                           resp = yaml.load(
                             (await axios.get(`/data/responses/${key}.yml`)).data
                           ) as RefFormat;
-                          console.log({ type, key });
                           return {
                             type: PageCollectionType.Response,
                             title: resp?.title ?? "",

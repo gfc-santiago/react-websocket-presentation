@@ -1,6 +1,6 @@
 title: Sing, Sing, Sing
 artist: Chris Tomlin
-sequence: C V1 V2 C V2 C C
+sequence: C V1 V2 C V1 C C E
 sections:
   C: |
     Sing, sing, sing
@@ -29,3 +29,7 @@ sections:
     Son of God, You are the One
     
     You are the One we're living for
+  
+  E: |
+    When we shout Your praise
+    Lift high the name of Jesus 
