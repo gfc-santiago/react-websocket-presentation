@@ -1,4 +1,4 @@
-id: svc1027
+id: svc1103
 sections: 
   - name: Intro
     content: |
@@ -6,8 +6,8 @@ sections:
       Sis. Elma Oliman
 
       {xs}Worship Service
-      {xs}October 27, 2024
-      {xs}Twenty-Third Sunday after Pentecost, Year B
+      {xs}November 3, 2024
+      {xs}Saints Sunday
   
       {xs}Lighting of the altar and paschal candles
       Accolyte
@@ -19,54 +19,85 @@ sections:
       {xs}Introit
       UMC Daly City Chancel Choir
   
-  - ref: hymn/umh-154
+  - ref: hymn/umh-57
     
   - name: Call To Worship
     content: |
 
-      Norma B. Valle
+      Elenita Gonzales
       {xs}Liturgist
 
       {xs}Liturgist:
-      Some of us come today with hearts weighed down with anxiety,
-      fear, despair, and hurt. Together we cling to this truth:
+      In the beginning, God called the
+      world into being, saying,
 
       {xs}People:
-      God’s steadfast love endures forever.
+      “Let there be light!”
 
       {xs}Liturgist:
-      Some of us come today with hearts that feel light with relief, joy,
-      comfort, and gratitude. Together we cling to this truth:
+      In the fullness of time,
+      Jesus came from God to us, saying,
 
       {xs}People:
-      God’s steadfast love endures forever.
+      “I am the Light of the world.”
 
       {xs}Liturgist:
-      Some of us come today not knowing what we think about God,
-      confused and disappointed that the world
+      In our everyday life,
+      we see the work of the saints,
+
+      {xs}People:
+      The ones in whom God’s light shines.
 
       {xs}Liturgist:
-      Be with us, God, in all that we bring with us,
-      as we gather to encounter your unchanging love.
- 
+      So let us give thanks for the saints this day,
+
+      {xs}People:
+      And let us worship God.
+
+      {xs}Liturgist:
+      We gather this morning to remember our call
+
+      {xs}People:
+      To do justice, to love kindness, and to walk humbly with God.
+
+      {xs}Liturgist:
+      We bring with us the events of the
+      week in the world and in our lives,
+
+      {xs}People:
+      Trying to know how to be just and
+      loving and humble in the midst of it all.
+
+      {xs}Liturgist:
+      We gather here, and see those
+      who are doing justice,
+
+      {xs}Liturgist:
+      who are kind beyond measure,
+      who set the example for humility.
+
       {xs}All:
-      and being served by one another is the source
-      of our power as the Body of Christ. Amen.
+      With gratitude for living saints, with thankfulness
+      for the purpose of faith, let us worship God.
 
   - name: Opening Prayer
     content: |
 
-  - name: Praise and Worship
-    content: |
-      {sm}Praise & Worship
-      Psalms 108
-
-  - ref: paw/come-fill-my-world
+      Opening Prayer
+      {xs}(The Community in Unison)
   
-  - ref: paw/sing-sing-sing
+      Eternal God, hope of all who trust in you,
+      in Christ you weep with those who mourn
+      
+      even as you cry out in triumph over the grave.
+      Unbind us from sin, release us from captivity,
+      
+      and with Lazarus, raise us from death to life,
+      so that we may join that great crowd of saints
+      
+      who forever sing praise to your holy name;
+      through Christ, the resurrection and the life.
 
-  - ref: paw/when-the-fight-calls
-  
   - name: Sharing
     content: |
       Sharing of Praises and Thanksgiving
@@ -77,7 +108,7 @@ sections:
   - name: Reading from the scriptures
     content: |
       {xs} Reading from the scriptures:
-      Matthew 22:37-38
+      Matthew 7:13-14
 
       {xs}Reader: 
       The Word of God for the people of God.
@@ -89,7 +120,7 @@ sections:
 
   - name: The Anthem
     content: |
-      "Potter's Hand"
+      "In You We Are One"
       {xs}UMC Daly City Chancel Choir
       {xs}Rebecca Katigbak-Grear, Conducting
       {xs}Roxanne Sacun Pianist, Pianist
@@ -98,29 +129,28 @@ sections:
 
   - name: The Message
     content: |
-
       Rev. Oliver S. Mangubat, D.Min.
       UMCDC Administrative Pastor
 
-      {sm}“Time on Earth is Short, Eternity is Not. What Are You Living For?”
-      Michelle M. Mangubat
-      {xs}Lay Speaker
+      {sm}Ready or Not "The End"
+      Rev. Oliver S. Mangubat, D.Min.
+      UMCDC Administrative Pastor
 
-  - ref: resp/offering
+  - ref: resp/offering-luke
 
   - ref: hymn/umh-95
 
-  - ref: hymn/umh-170
-    sequence: V1 R V2 R
+  - ref: hymn/umh-377
+    sequence: V1 R V2 R V3 R
 
   - name: Prayer
     content: |
-      {sm}Closing Prayer
+      {sm}Anointing of oil and Prayer of consecration
       Rev. Oliver S. Mangubat, D.Min.
       UMCDC Administrative Pastor
 
-  - ref: hymn/umh-170
-    sequence: V3 R
+  - ref: hymn/umh-377
+    sequence: V4 R
 
   - ref: resp/dismissal
   
