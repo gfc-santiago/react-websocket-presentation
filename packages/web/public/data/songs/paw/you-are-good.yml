@@ -1,10 +1,15 @@
 title: "You Are Good"
 artist: "Israel Houghton"
+sequence: V1 P C V1 P C B P C
 sections:
   V1: |
     Lord, You are good
     And Your mercy endureth forever
+    
+    Lord, You are good
+    And Your mercy endureth forever
 
+  P: |
     People from every nation and tongue
     From generation to generation
 
@@ -13,6 +18,12 @@ sections:
     Hallelujah! Hallelujah!
 
     We worship You for who You are
+
+    We worship You
+    Hallelujah! Hallelujah!
+
+    We worship You for who You are
+    You are good!
     
   B: |
     You are good, all the time

@@ -6,8 +6,8 @@ sections:
       Sis. Elma Oliman
 
       {xs}Worship Service
-      {xs}November 3, 2024
-      {xs}Saints Sunday
+      {xs}December 8, 2024
+      {xs}Sunday of advent
   
       {xs}Lighting of the altar and paschal candles
       Accolyte
@@ -19,66 +19,48 @@ sections:
       {xs}Introit
       UMC Daly City Chancel Choir
   
-  - ref: hymn/umh-57
+  - ref: hymn/umh-20
     
   - name: Call To Worship
     content: |
 
-      Elenita Gonzales
+      Calvin Oliman
       {xs}Liturgist
 
       {xs}Liturgist:
-      In the beginning, God called the
-      world into being, saying,
+      Children of God, prepare the way!
+      The Word of God is coming!
 
       {xs}People:
-      “Let there be light!”
+      We come to listen and receive God's Word among us.
 
       {xs}Liturgist:
-      In the fullness of time,
-      Jesus came from God to us, saying,
+      Children of God, the prophets call to us now
+      and from generations past, urging us to prepare
+      
+      {xs}Liturgist:
+      and refine our hearts for the coming
+      of the Word of God. Are you listening?
+      
+      {xs}People:
+      We come to listen and prepare
+      to receive God's Word among us.
+
+      {xs}Liturgist:
+      Children of God, this is the mark of our preparation:
+      that passion for God's Word would burn within us,
+
+      {xs}Liturgist:
+      cleansing us and renewing us to reflect
+      God's love throughout the world.
 
       {xs}People:
-      “I am the Light of the world.”
-
-      {xs}Liturgist:
-      In our everyday life,
-      we see the work of the saints,
-
+      May God ignite our passion for God's Word
+      that has come among us as we listen, prepare,
+      
       {xs}People:
-      The ones in whom God’s light shines.
-
-      {xs}Liturgist:
-      So let us give thanks for the saints this day,
-
-      {xs}People:
-      And let us worship God.
-
-      {xs}Liturgist:
-      We gather this morning to remember our call
-
-      {xs}People:
-      To do justice, to love kindness, and to walk humbly with God.
-
-      {xs}Liturgist:
-      We bring with us the events of the
-      week in the world and in our lives,
-
-      {xs}People:
-      Trying to know how to be just and
-      loving and humble in the midst of it all.
-
-      {xs}Liturgist:
-      We gather here, and see those
-      who are doing justice,
-
-      {xs}Liturgist:
-      who are kind beyond measure,
-      who set the example for humility.
-
-      {xs}All:
-      With gratitude for living saints, with thankfulness
-      for the purpose of faith, let us worship God.
+      and receive all that God has for us today.
+      Amen.
 
   - name: Opening Prayer
     content: |
@@ -86,17 +68,30 @@ sections:
       Opening Prayer
       {xs}(The Community in Unison)
   
-      Eternal God, hope of all who trust in you,
-      in Christ you weep with those who mourn
+      Compassionate God, greet us with your grace this day,
+      for we need you. We cannot save ourselves.
       
-      even as you cry out in triumph over the grave.
-      Unbind us from sin, release us from captivity,
+      Though we may be frantic with activity,
+      our efforts do not yield peace, peace as you can give.
       
-      and with Lazarus, raise us from death to life,
-      so that we may join that great crowd of saints
+      Today we would be quiet enough to hear your voice.
+      Today we would be still enough to feel your touch.
       
-      who forever sing praise to your holy name;
-      through Christ, the resurrection and the life.
+      Help us to find that place where we can receive
+      as well as give, wait as well as act, and listen as well as speak.
+      
+      Our whole world needs your peace.
+
+      Let us come before you and learn your ways,
+      laying down our weapons and feeding the hungry.
+      
+      Come to us now, through Jesus the Christ. Amen.
+
+  - ref: paw/hark-the-herald-angels-sing
+
+  - ref: paw/you-are-good
+
+  - ref: paw/what-a-beautiful-name
 
   - name: Sharing
     content: |
@@ -105,10 +100,19 @@ sections:
       Sister Benilda Gayagoy
       {xs}Administrative Council Chairperson
   
+  - name: Lighting of candle
+    content: |
+      {sm}THE LIGHTING OF THE SECOND CANDLE OF ADVENT - PEACE
+      Castillo Family
+      {xs}(Malachi 3:2b-3)
+
+  - ref: hymn/umh-20
+    sequence: V4 R
+  
   - name: Reading from the scriptures
     content: |
       {xs} Reading from the scriptures:
-      Matthew 7:13-14
+      Luke 3:1-6
 
       {xs}Reader: 
       The Word of God for the people of God.
@@ -120,7 +124,7 @@ sections:
 
   - name: The Anthem
     content: |
-      "In You We Are One"
+      "The birth of a King"
       {xs}UMC Daly City Chancel Choir
       {xs}Rebecca Katigbak-Grear, Conducting
       {xs}Roxanne Sacun Pianist, Pianist
@@ -132,16 +136,36 @@ sections:
       Rev. Oliver S. Mangubat, D.Min.
       UMCDC Administrative Pastor
 
-      {sm}Ready or Not "The End"
+      {sm}"Peace on the Highway of Holiness"
       Rev. Oliver S. Mangubat, D.Min.
       UMCDC Administrative Pastor
+  
+  - ref: hymn/umh-95
+
+  - name: Offeratory
+    content: |
+      {sm} (Congregation in unison)
+      Loving God, in this Advent season,
+      we bring our offerings with hearts open to your call.
+      
+      Just as John the Baptist prepared the way for Jesus,
+      may our gifts help prepare the way for your kingdom.
+      
+      Use these offerings to bring hope,
+      justice, and transformation.
+
+      Help us to look beyond the surface,
+      to see your work in surprising places and people.
+      
+      Bless our giving, that it may shine
+      with the presence of Emmanuel. 
+      
+      In Christ's name, we pray. Amen.
 
   - ref: resp/offering-luke
 
-  - ref: hymn/umh-95
-
-  - ref: hymn/umh-377
-    sequence: V1 R V2 R V3 R
+  - ref: hymn/umh-196
+    sequence: V1
 
   - name: Prayer
     content: |
@@ -149,8 +173,8 @@ sections:
       Rev. Oliver S. Mangubat, D.Min.
       UMCDC Administrative Pastor
 
-  - ref: hymn/umh-377
-    sequence: V4 R
+  - ref: hymn/umh-196
+    sequence: V2
 
   - ref: resp/dismissal
   
