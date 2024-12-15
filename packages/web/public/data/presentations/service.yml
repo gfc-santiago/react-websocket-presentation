@@ -6,92 +6,67 @@ sections:
       Sis. Elma Oliman
 
       {xs}Worship Service
-      {xs}December 8, 2024
-      {xs}Sunday of advent
+      {xs}December 15, 2024
+      {xs}CHRISTMAS CANTATA 2024
   
       {xs}Lighting of the altar and paschal candles
       Accolyte
 
       {xs}Prelude
-      Roxanne Sacun
-      {xs}Pianist
 
       {xs}Introit
       UMC Daly City Chancel Choir
   
-  - ref: hymn/umh-20
+  - ref: hymn/umh-240
     
   - name: Call To Worship
     content: |
 
-      Calvin Oliman
+      Prince Mangubat
       {xs}Liturgist
 
       {xs}Liturgist:
-      Children of God, prepare the way!
-      The Word of God is coming!
-
-      {xs}People:
-      We come to listen and receive God's Word among us.
+      Children of God, our world is full
+      of the fruit of humanity's greed, apathy,
 
       {xs}Liturgist:
-      Children of God, the prophets call to us now
-      and from generations past, urging us to prepare
+      and neglect for the love of God, neighbor,
+      self, and all creation.
+
+      {xs}People:
+      What, then, should we do?
+
+      {xs}Liturgist:
+      Our world is also full of the fruit of God's love
+      that wells up all around us, sustaining us,
+
+      {xs}Liturgist:
+      saving us, reviving us to 
+      live as the people of God.
+
+      {xs}People:
+      What, then, should we do?
       
       {xs}Liturgist:
-      and refine our hearts for the coming
-      of the Word of God. Are you listening?
-      
-      {xs}People:
-      We come to listen and prepare
-      to receive God's Word among us.
+      God encircles us on every side,
+      Love divine present with us in creation, in community,
 
       {xs}Liturgist:
-      Children of God, this is the mark of our preparation:
-      that passion for God's Word would burn within us,
-
-      {xs}Liturgist:
-      cleansing us and renewing us to reflect
-      God's love throughout the world.
+      and in the anticipated arrival of the infant Emmanuel.
+      What then, children of God, should you do?
 
       {xs}People:
-      May God ignite our passion for God's Word
-      that has come among us as we listen, prepare,
-      
+      We will live in joyful presence with God and neighbor,
+      turning away from sin and toward a life with God
+
       {xs}People:
-      and receive all that God has for us today.
-      Amen.
+      and one another marked by joy, 
+      justice, and mercy. Amen.
 
   - name: Opening Prayer
     content: |
 
       Opening Prayer
-      {xs}(The Community in Unison)
-  
-      Compassionate God, greet us with your grace this day,
-      for we need you. We cannot save ourselves.
-      
-      Though we may be frantic with activity,
-      our efforts do not yield peace, peace as you can give.
-      
-      Today we would be quiet enough to hear your voice.
-      Today we would be still enough to feel your touch.
-      
-      Help us to find that place where we can receive
-      as well as give, wait as well as act, and listen as well as speak.
-      
-      Our whole world needs your peace.
-
-      Let us come before you and learn your ways,
-      laying down our weapons and feeding the hungry.
-      
-      Come to us now, through Jesus the Christ. Amen.
-
-  - ref: paw/hark-the-herald-angels-sing
-
-  - ref: paw/you-are-good
-
-  - ref: paw/what-a-beautiful-name
 
   - name: Sharing
     content: |
@@ -102,17 +77,32 @@ sections:
   
   - name: Lighting of candle
     content: |
-      {sm}THE LIGHTING OF THE SECOND CANDLE OF ADVENT - PEACE
-      Castillo Family
-      {xs}(Malachi 3:2b-3)
 
-  - ref: hymn/umh-20
-    sequence: V4 R
+      {sm}THE LIGHTING OF THE SECOND CANDLE OF ADVENT - Love
+      Chan Family
+      {xs}(Isiah 12:3)
+
+      {xs}Congregation:
+      Faced with the troubles and the suffering of the world, 
+      we choose to live in joyful presence to God and one another. 
+
+      {xs}Congregation:
+      We will not turn away from the pain and the hurt in our world,
+      and we will not stop rejoicing in God
+      
+      {xs}Congregation:
+      whose salvation fills us to overflowing that God's love 
+      might flow through us and flood our troubled world with hope,
+      peace, and joy.
+
+  - ref: hymn/umh-240
+    sequence: V2 R
   
   - name: Reading from the scriptures
     content: |
+
       {xs} Reading from the scriptures:
-      Luke 3:1-6
+      Luke 3:7-18
 
       {xs}Reader: 
       The Word of God for the people of God.
@@ -122,12 +112,18 @@ sections:
 
   - ref: hymn/umh-70
 
-  - name: The Anthem
+  - name: Cantata Part 1
     content: |
-      "The birth of a King"
+
+      "Love Came Down at Christmas" By Joel Raney
       {xs}UMC Daly City Chancel Choir
-      {xs}Rebecca Katigbak-Grear, Conducting
-      {xs}Roxanne Sacun Pianist, Pianist
+      {xs}Rebecca Katigbak-Grear, Conductor
+
+      Love Came Down
+      
+      Come, Emmanuel, Come
+
+      Grant Us Peace
 
   - ref: resp/prayer-of-declaration
 
@@ -136,55 +132,49 @@ sections:
       Rev. Oliver S. Mangubat, D.Min.
       UMCDC Administrative Pastor
 
-      {sm}"Peace on the Highway of Holiness"
+      {sm}"Finding Joy During Times of Waiting"
       Rev. Oliver S. Mangubat, D.Min.
-      UMCDC Administrative Pastor
+      {xs}UMCDC Administrative Pastor
   
-  - ref: hymn/umh-95
+  - name: Cantata Part 2
+    content: |
+
+      "Love Came Down at Christmas" By Joel Raney
+      {xs}UMC Daly City Chancel Choir
+      {xs}Rebecca Katigbak-Grear, Conductor
+
+      Listen to the Joyful Song
+
+      Love Be Yours, Love Be Mine
+
+      Love Divine
 
   - name: Offeratory
     content: |
-      {sm} (Congregation in unison)
-      Loving God, in this Advent season,
-      we bring our offerings with hearts open to your call.
-      
-      Just as John the Baptist prepared the way for Jesus,
-      may our gifts help prepare the way for your kingdom.
-      
-      Use these offerings to bring hope,
-      justice, and transformation.
 
-      Help us to look beyond the surface,
-      to see your work in surprising places and people.
-      
-      Bless our giving, that it may shine
-      with the presence of Emmanuel. 
-      
-      In Christ's name, we pray. Amen.
+      Invitation to Offerring
+
+      {xs}Offeratory
+      "Pasko Na Naman"
+      Rev. Estan Cueto
+
 
   - ref: resp/offering-luke
 
-  - ref: hymn/umh-196
-    sequence: V1
+  - ref: hymn/umh-95
+
+  - ref: hymn/umh-348
 
   - name: Prayer
     content: |
-      {sm}Anointing of oil and Prayer of consecration
       Rev. Oliver S. Mangubat, D.Min.
       UMCDC Administrative Pastor
 
-  - ref: hymn/umh-196
-    sequence: V2
-
   - ref: resp/dismissal
-  
+
   - name: Postlude
     content: |
       Rev. Oliver S. Mangubat, D.Min.
       UMCDC Administrative Pastor
 
       UMCDC Chancel Choir
-
-      {xs}Postlude
-      Roxanne Sacun
-      {xs}Pianist
