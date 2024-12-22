@@ -1,4 +1,4 @@
-id: svc1103
+id: svc1222
 sections: 
   - name: Intro
     content: |
@@ -6,67 +6,65 @@ sections:
       Sis. Elma Oliman
 
       {xs}Worship Service
-      {xs}December 15, 2024
-      {xs}CHRISTMAS CANTATA 2024
+      {xs}December 22, 2024
+      {xs}Sunday of advent
   
       {xs}Lighting of the altar and paschal candles
       Accolyte
 
       {xs}Prelude
+      Rebecca Katigbak-Grear
+      {xs}Pianist
 
       {xs}Introit
       UMC Daly City Chancel Choir
   
-  - ref: hymn/umh-240
+  - ref: hymn/umh-246
     
   - name: Call To Worship
     content: |
 
-      Prince Mangubat
+      Calvin Oliman
       {xs}Liturgist
 
       {xs}Liturgist:
-      Children of God, our world is full
-      of the fruit of humanity's greed, apathy,
-
-      {xs}Liturgist:
-      and neglect for the love of God, neighbor,
-      self, and all creation.
+      Children of God, the arrival of the Promised One is almost here!
 
       {xs}People:
-      What, then, should we do?
-
-      {xs}Liturgist:
-      Our world is also full of the fruit of God's love
-      that wells up all around us, sustaining us,
-
-      {xs}Liturgist:
-      saving us, reviving us to 
-      live as the people of God.
-
-      {xs}People:
-      What, then, should we do?
+      We wait as people of God's promise.
       
       {xs}Liturgist:
-      God encircles us on every side,
-      Love divine present with us in creation, in community,
+      The message of the prophets and the expectation residing in
+      Mary's womb call to us today.
+
+      {xs}People:
+      We listen as people of God's promise.
 
       {xs}Liturgist:
-      and in the anticipated arrival of the infant Emmanuel.
-      What then, children of God, should you do?
-
+      Mary's "yes" and Elizabeth's faithfulness guide our path,
+      showing us that we too have a role to play
+      in bearing God's good news into the world.
+      
       {xs}People:
-      We will live in joyful presence with God and neighbor,
-      turning away from sin and toward a life with God
+      We follow as people of God's promise.
 
+      {xs}Liturgist:
+      This is the promise Mary, Elizabeth, and the prophets
+      bore that we continue to carry even today—God is with us!
+      
       {xs}People:
-      and one another marked by joy, 
-      justice, and mercy. Amen.
+      God is with us! We are not alone. Thanks be to God!
 
   - name: Opening Prayer
     content: |
 
       Opening Prayer
+
+  - ref: paw/hark-the-herald-angels-sing
+
+  - ref: paw/you-are-good
+
+  - ref: paw/love-of-god
 
   - name: Sharing
     content: |
@@ -78,31 +76,29 @@ sections:
   - name: Lighting of candle
     content: |
 
-      {sm}THE LIGHTING OF THE SECOND CANDLE OF ADVENT - Love
-      Chan Family
-      {xs}(Isiah 12:3)
+      {sm}THE LIGHTING OF THE FOURTH CANDLE OF ADVENT - LOVE
+      Micah 5:2
+      Pinkard and Holcomb Family
 
-      {xs}Congregation:
-      Faced with the troubles and the suffering of the world, 
-      we choose to live in joyful presence to God and one another. 
+      {sm}Congregation:
+      God invites us to receive the promise of God's salvation
+      and the sustenance of God's mercy and grace
 
-      {xs}Congregation:
-      We will not turn away from the pain and the hurt in our world,
-      and we will not stop rejoicing in God
-      
-      {xs}Congregation:
-      whose salvation fills us to overflowing that God's love 
-      might flow through us and flood our troubled world with hope,
-      peace, and joy.
+      {sm}Congregation:
+      enabling us to live the promise as God-bearers to the world.
+      As Christ was born in Bethlehem
 
-  - ref: hymn/umh-240
-    sequence: V2 R
+      {sm}Congregation:
+      so too we answer God's invitation to have Christ
+      born among us today and everyday.
+
+  - ref: hymn/umh-246
+    sequence: V1
   
   - name: Reading from the scriptures
     content: |
-
       {xs} Reading from the scriptures:
-      Luke 3:7-18
+      Hebrews 10:5-10
 
       {xs}Reader: 
       The Word of God for the people of God.
@@ -112,18 +108,11 @@ sections:
 
   - ref: hymn/umh-70
 
-  - name: Cantata Part 1
+  - name: The Anthem
     content: |
-
-      "Love Came Down at Christmas" By Joel Raney
+      "Listen to the Joyful Song"
       {xs}UMC Daly City Chancel Choir
-      {xs}Rebecca Katigbak-Grear, Conductor
-
-      Love Came Down
-      
-      Come, Emmanuel, Come
-
-      Grant Us Peace
+      {xs}Rebecca Katigbak-Grear, Conducting
 
   - ref: resp/prayer-of-declaration
 
@@ -132,49 +121,35 @@ sections:
       Rev. Oliver S. Mangubat, D.Min.
       UMCDC Administrative Pastor
 
-      {sm}"Finding Joy During Times of Waiting"
+      {sm}"Christ Sacrifice in Christmas"
       Rev. Oliver S. Mangubat, D.Min.
-      {xs}UMCDC Administrative Pastor
+      UMCDC Administrative Pastor
   
-  - name: Cantata Part 2
-    content: |
-
-      "Love Came Down at Christmas" By Joel Raney
-      {xs}UMC Daly City Chancel Choir
-      {xs}Rebecca Katigbak-Grear, Conductor
-
-      Listen to the Joyful Song
-
-      Love Be Yours, Love Be Mine
-
-      Love Divine
-
-  - name: Offeratory
-    content: |
-
-      Invitation to Offerring
-
-      {xs}Offeratory
-      "Pasko Na Naman"
-      Rev. Estan Cueto
-
-
   - ref: resp/offering-luke
 
   - ref: hymn/umh-95
 
-  - ref: hymn/umh-348
+  - ref: hymn/umh-230
+    sequence: V1 V2 V3
 
   - name: Prayer
     content: |
+      {sm}Anointing of oil and Prayer of consecration
       Rev. Oliver S. Mangubat, D.Min.
       UMCDC Administrative Pastor
 
-  - ref: resp/dismissal
+  - ref: hymn/umh-230
+    sequence: V4
 
+  - ref: resp/dismissal
+  
   - name: Postlude
     content: |
       Rev. Oliver S. Mangubat, D.Min.
       UMCDC Administrative Pastor
 
       UMCDC Chancel Choir
+
+      {xs}Postlude
+      Roxanne Sacun
+      {xs}Pianist

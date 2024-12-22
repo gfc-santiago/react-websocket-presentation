@@ -1,0 +1,180 @@
+id: svc1103
+sections: 
+  - name: Intro
+    content: |
+      {sm}Announcements
+      Sis. Elma Oliman
+
+      {xs}Worship Service
+      {xs}December 15, 2024
+      {xs}CHRISTMAS CANTATA 2024
+  
+      {xs}Lighting of the altar and paschal candles
+      Accolyte
+
+      {xs}Prelude
+
+      {xs}Introit
+      UMC Daly City Chancel Choir
+  
+  - ref: hymn/umh-240
+    
+  - name: Call To Worship
+    content: |
+
+      Prince Mangubat
+      {xs}Liturgist
+
+      {xs}Liturgist:
+      Children of God, our world is full
+      of the fruit of humanity's greed, apathy,
+
+      {xs}Liturgist:
+      and neglect for the love of God, neighbor,
+      self, and all creation.
+
+      {xs}People:
+      What, then, should we do?
+
+      {xs}Liturgist:
+      Our world is also full of the fruit of God's love
+      that wells up all around us, sustaining us,
+
+      {xs}Liturgist:
+      saving us, reviving us to 
+      live as the people of God.
+
+      {xs}People:
+      What, then, should we do?
+      
+      {xs}Liturgist:
+      God encircles us on every side,
+      Love divine present with us in creation, in community,
+
+      {xs}Liturgist:
+      and in the anticipated arrival of the infant Emmanuel.
+      What then, children of God, should you do?
+
+      {xs}People:
+      We will live in joyful presence with God and neighbor,
+      turning away from sin and toward a life with God
+
+      {xs}People:
+      and one another marked by joy, 
+      justice, and mercy. Amen.
+
+  - name: Opening Prayer
+    content: |
+
+      Opening Prayer
+
+  - name: Sharing
+    content: |
+      Sharing of Praises and Thanksgiving
+      
+      Sister Benilda Gayagoy
+      {xs}Administrative Council Chairperson
+  
+  - name: Lighting of candle
+    content: |
+
+      {sm}THE LIGHTING OF THE SECOND CANDLE OF ADVENT - Love
+      Chan Family
+      {xs}(Isiah 12:3)
+
+      {xs}Congregation:
+      Faced with the troubles and the suffering of the world, 
+      we choose to live in joyful presence to God and one another. 
+
+      {xs}Congregation:
+      We will not turn away from the pain and the hurt in our world,
+      and we will not stop rejoicing in God
+      
+      {xs}Congregation:
+      whose salvation fills us to overflowing that God's love 
+      might flow through us and flood our troubled world with hope,
+      peace, and joy.
+
+  - ref: hymn/umh-240
+    sequence: V2 R
+  
+  - name: Reading from the scriptures
+    content: |
+
+      {xs} Reading from the scriptures:
+      Luke 3:7-18
+
+      {xs}Reader: 
+      The Word of God for the people of God.
+
+      {xs}People:
+      Thanks be to God!
+
+  - ref: hymn/umh-70
+
+  - name: Cantata Part 1
+    content: |
+
+      "Love Came Down at Christmas" By Joel Raney
+      {xs}UMC Daly City Chancel Choir
+      {xs}Rebecca Katigbak-Grear, Conductor
+
+      Love Came Down
+      
+      Come, Emmanuel, Come
+
+      Grant Us Peace
+
+  - ref: resp/prayer-of-declaration
+
+  - name: The Message
+    content: |
+      Rev. Oliver S. Mangubat, D.Min.
+      UMCDC Administrative Pastor
+
+      {sm}"Finding Joy During Times of Waiting"
+      Rev. Oliver S. Mangubat, D.Min.
+      {xs}UMCDC Administrative Pastor
+  
+  - name: Cantata Part 2
+    content: |
+
+      "Love Came Down at Christmas" By Joel Raney
+      {xs}UMC Daly City Chancel Choir
+      {xs}Rebecca Katigbak-Grear, Conductor
+
+      Listen to the Joyful Song
+
+      Love Be Yours, Love Be Mine
+
+      Love Divine
+
+  - name: Offeratory
+    content: |
+
+      Invitation to Offerring
+
+      {xs}Offeratory
+      "Pasko Na Naman"
+      Rev. Estan Cueto
+
+
+  - ref: resp/offering-luke
+
+  - ref: hymn/umh-95
+
+  - ref: hymn/umh-348
+
+  - name: Prayer
+    content: |
+      Rev. Oliver S. Mangubat, D.Min.
+      UMCDC Administrative Pastor
+
+  - ref: resp/dismissal
+
+  - name: Postlude
+    content: |
+      Rev. Oliver S. Mangubat, D.Min.
+      UMCDC Administrative Pastor
+
+      UMCDC Chancel Choir
